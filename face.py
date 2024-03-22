@@ -29,7 +29,7 @@ height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter('output.mp4', fourcc, fps, (width, height))
 
-fixed_screenshot_size = (100, 100)
+fixed_screenshot_size = (120, 120)
 timestamp_height = 20
 
 # Keep track of unique persons and their face encodings
